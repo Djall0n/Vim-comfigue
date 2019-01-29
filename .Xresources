@@ -1,0 +1,4 @@
+URxvt*srcollBar: false
+URxvt*foreground: white
+URxvt*background: black
+URxvt*saveLines: 0
