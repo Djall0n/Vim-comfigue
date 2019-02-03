@@ -1,3 +1,7 @@
+" VIM Configuration File
+" Description: Optimized for C/C++ development, but useful also for other things.
+" Author : foxdry
+
 "Plugin Manager <Vundle> 
 set nocompatible              
 filetype off                  
@@ -9,28 +13,18 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'morhetz/gruvbox'
-Plugin 'Valloric/YouCompleteMe'
-
 
 call vundle#end()        
 filetype plugin indent on 
 
 
-
 autocmd vimenter * NERDTree
 colorscheme gruvbox
 
-
-
-
-" VIM Configuration File
-" Description: Optimized for C/C++ development, but useful also for other things.
-" Author : foxdry
-"
-
 "set gruvbox theme color
-set background=dark    " Setting dark mode
+set background=dark   " Setting dark mode
 
+set number
 " set UTF-8 encoding
 set enc=utf-8
 set fenc=utf-8
