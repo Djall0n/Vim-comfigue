@@ -2,3 +2,6 @@ URxvt*srcollBar: false
 URxvt*foreground: white
 URxvt*background: black
 URxvt*saveLines: 0
+
+"xrdb ~/.Xresources command  
+"   to aplly update changes
