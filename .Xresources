@@ -1,6 +1,7 @@
 URxvt*srcollBar: false
 URxvt*foreground: white
-URxvt*background: black
+URxvt.transparent: true
+URxvt.shading:50
 URxvt*saveLines: 0
 
 "xrdb ~/.Xresources command  
