@@ -6,14 +6,17 @@
 #
 
 # i3 config file (v4)
-#
+# i3-gaps config  
+  
+
+
+
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:System San Francisco 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -155,6 +158,7 @@ set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
 set $urgent-bg-color     #E53935
 set $bar-color           #111111
+set $indicator color     #
 
 # window colors
 #                       border              background         text                 indicator
@@ -180,3 +184,5 @@ bar {
 }
 
 exec compton
+exec feh --bg-scal /home/taketshi/Downloads/fwp2.jpg
+
