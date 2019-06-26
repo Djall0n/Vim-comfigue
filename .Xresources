@@ -61,3 +61,7 @@ URxvt.shading:50
 
 "xrdb ~/.Xresources command  
 "   to aplly update changes
+
+
+"change the defaut terminal
+"sudo update-alternatives --config x-terminal-emulator
