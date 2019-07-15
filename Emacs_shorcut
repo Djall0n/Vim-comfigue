@@ -1,3 +1,0 @@
-Open the .emacs.d folder from the terminal , than  
-git checkout develop (branch)
-git pull => to update from last version of emacs (spacemacs)
